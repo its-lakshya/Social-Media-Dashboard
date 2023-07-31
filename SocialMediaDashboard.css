@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.darkmode {
+  background-color: #1d2029;
+  color: white;
+}
+.container {
+  width: 80vw;
+  /* width:500px; */
+  margin: auto;
+}
+.top {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  font-size-adjust: fixed;
+  margin-top: 1.5rem;
+}
+.heading {
+  text-transform: capitalize;
+  display: flex;
+  flex-flow: column wrap;
+}
+.mainheading {
+  font-size: 2rem;
+  min-height: 2rem;
+  font-weight: 700;
+}
+.totalfollowers {
+  font-size: 1rem;
+  margin-top: 0;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: #797979;
+}
+.toggletext {
+  font-size: 0.8rem;
+  letter-spacing: 0.4px;
+  font-weight: 700;
+  display: flex;
+  flex-flow: row nowrap;
+  /* margin-top:1.15rem; */
+  color: #a9a9a9;
+  align-items: center;
+}
+.toggle {
+  margin-left: 0.5rem;
+  width: 2.2rem;
+  height: 1.2rem;
+  background-color: #a9a9a9;
+  border-radius: 1.2rem;
+}
+@keyframes toggleanimation {
+  from {
+    translate: 0rem;
+  }
+  to {
+    translate: 1rem;
+  }
+}
+.circle {
+  background-color: red;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: 0.1rem;
+  margin-left: 0.1rem;
+}
+.circleanimation {
+  animation-name: toggleanimation;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  /* animation-delay: 5s; */
+}
+.socialplatforms {
+  /* background-color: green; */
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  gap: 1.9rem;
+}
+.bigcards {
+  width: 16rem;
+  /* background-color:yellowgreen; */
+  margin-top: 2rem;
+  min-height: 13rem;
+  border-radius: 0.3rem;
+  text-align: center;
+  background-color: rgb(241, 241, 241);
+}
+.cardsdarkmode {
+  background-color: #252b43;
+  color: white;
+}
+.cardsdarkmode:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
