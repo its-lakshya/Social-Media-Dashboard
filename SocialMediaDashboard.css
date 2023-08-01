@@ -100,4 +100,120 @@ body {
 .cardsdarkmode:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
 }
-
+.line {
+  min-height: 5px;
+  background-color: #1778f2;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+.facebookline {
+  background-color: #1778f2;
+}
+.twitterline {
+  background-color: #1da1f2;
+}
+.instagramline {
+  background: linear-gradient(to right, #eedc31, #f44747);
+}
+.youtubeline {
+  background-color: #ff0000;
+}
+.name {
+  padding-top: 0.6rem;
+  font-size: 0.8rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  color: #797979;
+  font-weight: 600;
+}
+.followersnumber {
+  font-size: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0rem;
+  font-weight: 700;
+}
+.followers {
+  padding-top: 0rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #797979;
+}
+.growth {
+  padding-top: 1.7rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.055rem;
+  color: #00ff62;
+  font-weight: 800;
+}
+.facebooklogo {
+  /* padding-top:1rem; */
+  width: 2rem;
+}
+.overview {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.overviewdarkmode {
+  color: white;
+}
+.activity {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  gap: 1.9rem;
+  /* background-color:rgb(241, 241, 241); */
+}
+.smallcards {
+  width: 16rem;
+  min-height: 6.5rem;
+  border-radius: 0.3rem;
+  text-align: center;
+  background-color: rgb(241, 241, 241);
+}
+.smalldarkmode {
+  background-color: #252b43;
+  color: white;
+}
+.smalldarkmode:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+.tag {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 1.3rem 1.5rem 0 1.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #797979;
+  text-transform: capitalize;
+}
+.numbers {
+  padding: 0.8rem 1.5rem 0 1.5rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.class3 {
+  width: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.class4 {
+  margin: 0.5rem 0.1rem 0 0;
+  color: #00ff62;
+  font-weight: 800;
+  font-size: 0.7rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
